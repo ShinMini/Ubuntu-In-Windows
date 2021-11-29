@@ -1298,3 +1298,151 @@ git status
 git add .
 #1638201491
 ;
+#1638201504
+sudo git add .
+#1638201512
+git commit
+#1638201635
+git config --editor
+#1638201641
+git config --help
+#1638201684
+git config vim -e
+#1638201690
+git config -e vim
+#1638201703
+git config --editor vim
+#1638201726
+git config --global -e vim
+#1638201755
+git config -get
+#1638201759
+git config --get
+#1638201770
+git config get --global 
+#1638201779
+git config --global get
+#1638201784
+git config --global
+#1638201827
+git config --get-all
+#1638201859
+git config --global --get-all
+#1638201868
+git config name --get-all
+#1638201873
+git config name --get
+#1638201877
+git config --get name
+#1638201882
+git config --get user.name
+#1638201892
+git config --get user.all
+#1638201898
+git config --get user
+#1638201904
+git config --get-all user
+#1638201915
+git config --get-all --global
+#1638201931
+git config --get user.editor
+#1638201949
+git config --set user.editor vim --global
+#1638201952
+git config --set user.editor vim
+#1638202067
+git config --add -e vim --global
+#1638202073
+git config --add vim -e 
+#1638202083
+git config --add editor vim
+#1638202089
+git config --add -e vim
+#1638202099
+git config --add -e vim --global
+#1638202142
+git config --get-all user.
+#1638202146
+git config --get-all user.name
+#1638202162
+git config --get-all "Shin Hyeon Min"
+#1638202179
+git config --get user.email
+#1638202184
+git config --get user.editor
+#1638202190
+git config --set .
+#1638202192
+git config --set 
+#1638202194
+git config --add
+#1638202238
+git config editor vim
+#1638202244
+git config -e vim
+#1638202252
+git config --edit vim
+#1638202256
+git config vim --edit
+#1638202268
+git config --get user.edit
+#1638202284
+git config add user.edit vim
+#1638202292
+git config user.edit=vim
+#1638202295
+git config user.edit
+#1638202313
+git config user.edit vim
+#1638202320
+git config --get user.edit
+#1638202324
+git config user.edit vim --global
+#1638202333
+git config add user.name mini
+#1638202346
+git config user.name mini
+#1638202352
+git config --get user.name
+#1638202365
+git config --get-all user.name
+#1638202390
+git config user.name "Shin Hyeon Min" --global
+#1638202412
+git config --get user.email
+#1638202418
+git config
+#1638202437
+git config worktre
+#1638202439
+git config worktree
+#1638202445
+git config mini worktree
+#1638202472
+git config --worktree Shin Hyeon Min
+#1638202476
+git config --worktree "Shin Hyeon Min"
+#1638202482
+git config --worktree
+#1638202490
+git config mini -worktree
+#1638202494
+git config mini --worktree
+#1638202502
+git config --worktree mini
+#1638202516
+git remote
+#1638202520
+git branch
+#1638202526
+git branch sec
+#1638202544
+sudo git add . sec 
+#1638202551
+git add
+#1638202560
+git add --help
+#1638202583
+git sec
+#1638202589
+git checkout sec
