@@ -1,6 +1,6 @@
 alias l 'exa'
 alias ll 'exa_git'
-alais la 'exa -l --icons -T -L3 --color-scale -t modified --time-style iso'
+alias la 'exa -l --icons -T -L3 --color-scale -t modified --time-style iso'
 alias ld 'exa $EXA_STANDARD_OPTIONS $EXA_LD_OPTIONS'
 alias lg 'exa $EXA_STANDARD_OPTIONS $EXA_LG_OPTIONS'
 alias le 'exa $EXA_STANDARD_OPTIONS $EXA_LE_OPTIONS'
