@@ -1,0 +1,36 @@
+Arguments: 
+  /usr/bin/node /usr/local/bin/yarn create react-router-dom
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python310/Scripts/:/mnt/c/Python310/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Yarn/bin/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/gusal/scoop/shims:/mnt/c/Users/gusal/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/gusal/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/WebStorm 2021.2.3/bin:/mnt/c/Program Files/JetBrains/IntelliJ IDEA 2021.2.3/bin:/mnt/c/Users/gusal/AppData/Local/Programs/oh-my-posh/bin:/mnt/c/Users/gusal/AppData/Local/Programs/oh-my-posh/themes:/mnt/c/Program Files (x86)/GitHub CLI/:/mnt/c/Users/gusal/AppData/Local/Yarn/bin:/mnt/c/Users/gusal/AppData/Roaming/npm:/mnt/c/Users/gusal/AppData/Local/GitHubDesktop/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  12.22.5
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/create-react-router-dom: Not found
+      at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:67029:18)
+      at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:140883:22)
+      at Request.emit (events.js:314:20)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141855:10)
+      at Request.emit (events.js:314:20)
+      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141777:12)
+      at Object.onceWrapper (events.js:420:28)
+      at IncomingMessage.emit (events.js:326:22)
+      at endReadableNT (_stream_readable.js:1241:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

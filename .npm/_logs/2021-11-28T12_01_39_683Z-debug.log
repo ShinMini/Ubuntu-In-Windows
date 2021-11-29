@@ -1,0 +1,72 @@
+0 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', '-global', 'yarn' ]
+1 info using npm@7.5.2
+2 info using node@v12.22.5
+3 timing config:load:defaults Completed in 2ms
+4 timing config:load:file:/usr/share/nodejs/npm/npmrc Completed in 4ms
+5 timing config:load:builtin Completed in 4ms
+6 timing config:load:cli Completed in 4ms
+7 timing config:load:env Completed in 1ms
+8 timing config:load:project Completed in 1ms
+9 timing config:load:file:/home/mini/.npmrc Completed in 1ms
+10 timing config:load:user Completed in 1ms
+11 timing config:load:file:/etc/npmrc Completed in 0ms
+12 timing config:load:global Completed in 0ms
+13 timing config:load:cafile Completed in 0ms
+14 timing config:load:validate Completed in 1ms
+15 timing config:load:setUserAgent Completed in 0ms
+16 timing config:load:setEnvs Completed in 1ms
+17 timing config:load Completed in 15ms
+18 verbose npm-session 8226dbf3111a1cbd
+19 timing npm:load Completed in 27ms
+20 timing arborist:ctor Completed in 1ms
+21 timing idealTree:init Completed in 14ms
+22 timing idealTree:userRequests Completed in 3ms
+23 silly idealTree buildDeps
+24 silly fetch manifest yarn@*
+25 http fetch GET 200 https://registry.npmjs.org/yarn 284ms
+26 silly placeDep ROOT yarn@1.22.17 OK for:  want: *
+27 timing idealTree:#root Completed in 302ms
+28 timing idealTree:node_modules/yarn Completed in 0ms
+29 timing idealTree:buildDeps Completed in 304ms
+30 timing idealTree:fixDepFlags Completed in 1ms
+31 timing idealTree Completed in 323ms
+32 timing reify:loadTrees Completed in 329ms
+33 timing reify:diffTrees Completed in 2ms
+34 silly reify mark retired [
+34 silly reify   '/usr/local/lib/node_modules/yarn',
+34 silly reify   '/usr/local/bin/yarn',
+34 silly reify   '/usr/local/bin/yarnpkg'
+34 silly reify ]
+35 silly reify moves {
+35 silly reify   '/usr/local/lib/node_modules/yarn': '/usr/local/lib/node_modules/.yarn-Jrexx8nI',
+35 silly reify   '/usr/local/bin/yarn': '/usr/local/bin/.yarn-PedZXo5L',
+35 silly reify   '/usr/local/bin/yarnpkg': '/usr/local/bin/.yarnpkg-cxSvgbtB'
+35 silly reify }
+36 timing reify:rollback:retireShallow Completed in 5ms
+37 timing command:install Completed in 355ms
+38 verbose stack Error: EACCES: permission denied, rename '/usr/local/lib/node_modules/yarn' -> '/usr/local/lib/node_modules/.yarn-Jrexx8nI'
+39 verbose cwd /home/mini
+40 verbose Linux 5.10.16.3-microsoft-standard-WSL2
+41 verbose argv "/usr/bin/node" "/usr/bin/npm" "install" "-global" "yarn"
+42 verbose node v12.22.5
+43 verbose npm  v7.5.2
+44 error code EACCES
+45 error syscall rename
+46 error path /usr/local/lib/node_modules/yarn
+47 error dest /usr/local/lib/node_modules/.yarn-Jrexx8nI
+48 error errno -13
+49 error Error: EACCES: permission denied, rename '/usr/local/lib/node_modules/yarn' -> '/usr/local/lib/node_modules/.yarn-Jrexx8nI'
+49 error  [Error: EACCES: permission denied, rename '/usr/local/lib/node_modules/yarn' -> '/usr/local/lib/node_modules/.yarn-Jrexx8nI'] {
+49 error   errno: -13,
+49 error   code: 'EACCES',
+49 error   syscall: 'rename',
+49 error   path: '/usr/local/lib/node_modules/yarn',
+49 error   dest: '/usr/local/lib/node_modules/.yarn-Jrexx8nI'
+49 error }
+50 error The operation was rejected by your operating system.
+50 error It is likely you do not have the permissions to access this file as the current user
+50 error
+50 error If you believe this might be a permissions issue, please double-check the
+50 error permissions of the file and its containing directories, or try running
+50 error the command again as root/Administrator.
+51 verbose exit -13

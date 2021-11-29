@@ -1,0 +1,2 @@
+aspell-dictionaries
+postgresql-upgrade-database

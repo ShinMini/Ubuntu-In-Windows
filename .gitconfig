@@ -1,0 +1,8 @@
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[user]
+	email = gusals121234@gmail.com
+	name = Shin Hyeon Min
+[init]
+	defaultBranch = main
