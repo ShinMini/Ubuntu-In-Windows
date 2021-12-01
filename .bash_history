@@ -1446,3 +1446,195 @@ git add --help
 git sec
 #1638202589
 git checkout sec
+#1638222661
+bash
+#1638222668
+fish
+#1638223175
+li
+#1638223180
+exa
+#1638223184
+fish
+#1638222283
+bash
+#1638222302
+bash
+#1638222331
+bash
+#1638222349
+bash
+#1638222364
+bash
+#1638257023
+fish
+#1638257911
+wsl
+#1638257913
+winget
+#1638257914
+window
+#1638257919
+powershell
+#1638257919
+cmd
+#1638258554
+pwd
+#1638258555
+git status
+#1638258559
+git clean
+#1638258567
+git clean -i
+#1638258570
+git clean -f
+#1638259706
+ls -al
+#1638259707
+ll
+#1638259708
+la
+#1638259710
+pwd
+#1638259724
+claer
+#1638259726
+cd c
+#1638259728
+cd gusal
+#1638259730
+z gusal
+#1638259731
+ls -al
+#1638259733
+la
+#1638259734
+ll
+#1638259750
+z gusal
+#1638259752
+pwd
+#1638259758
+cd mini/
+#1638259760
+la
+#1638259763
+l
+#1638259766
+li
+#1638259818
+l
+#1638259824
+cd VScode-workspaces/
+#1638259827
+ll
+#1638259828
+cd ..
+#1638259829
+l
+#1638259833
+cd WebstormProjects/
+#1638259835
+la
+#1638259845
+l
+#1638259854
+pushd .
+#1638259860
+z workplace
+#1638259862
+pwd
+#1638259867
+la
+#1638259884
+cp routerbase
+#1638259887
+cp --help
+#1638259911
+pushd 
+#1638259913
+pwd
+#1638259931
+z /home/mini/workplace
+#1638259945
+cp -r routerbase/ /mnt/c/Users/gusal/mini/WebstormProjects
+#1638260027
+cd /mnt/c/Users/gusal/mini/WebstormProjects
+#1638260029
+l
+#1638260035
+rm -r routerbase/
+#1638260051
+rm -help
+#1638260053
+rm --help
+#1638260090
+rm -r routerbase/ -f
+#1638260106
+rm -r -f routerbase/
+#1638260113
+l
+#1638260122
+rm -r routerbase --force
+#1638260132
+rm -r routerbase -v --force
+#1638260139
+l
+#1638260143
+git status
+#1638260147
+gh auth
+#1638260206
+fish
+#1638257924
+fish
+#1638258575
+fish
+#1638260476
+z routerbase
+#1638260478
+pwd
+#1638260482
+la
+#1638260502
+cd ~/.bashrc
+#1638260508
+cd ~
+#1638260550
+bash
+#1638260570
+cd ~
+#1638260571
+z mini
+#1638260573
+ls -al
+#1638260574
+pwd 
+#1638260745
+z routerbase
+#1638260756
+cd workplace
+#1638260763
+z /home/mini/workplace
+#1638260770
+git status
+#1638260512
+vim .bashrc
+#1638260785
+pushd 
+#1638260794
+z workpalce
+#1638260806
+z /mnt/c/Users/gusal/mini/WebstormProjects/
+#1638260810
+pwd
+#1638260833
+cd ..
+#1638260844
+rename mini/ cmini
+#1638260853
+sudo apt install rename
+#1638260863
+sudo apt update
+#1638270456
+sudo npm install prettier -D --save-exact

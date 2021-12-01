@@ -3,7 +3,7 @@ export OSH=/home/mini/.oh-my-bash
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-bash is loaded.
-OSH_THEME="mairan"
+OSH_THEME="powerline-multiline"
 
 
 # Uncomment the following line to use case-sensitive completion.
@@ -226,6 +226,5 @@ fi
  . ~/path/to/z.sh
 
 #  start point setting 
-cd ~
 
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"

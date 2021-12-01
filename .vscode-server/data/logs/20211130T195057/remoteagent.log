@@ -1,0 +1,53 @@
+[2021-11-30 19:50:57.261] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2021-11-30 19:50:57.261] [remoteagent] [info] Extension host agent started.
+[2021-11-30 19:50:57.390] [remoteagent] [info] [::ffff:172.17.240.1][81cd4df1][ManagementConnection] New connection established.
+[2021-11-30 19:50:57.394] [remoteagent] [info] [::ffff:172.17.240.1][f733bb43][ExtensionHostConnection] New connection established.
+[2021-11-30 19:50:57.878] [remoteagent] [info] [::ffff:172.17.240.1][f733bb43][ExtensionHostConnection] <18153> Launched Extension Host Process.
+[2021-11-30 19:52:38.975] [remoteagent] [info] Installing extension: ms-azuretools.vscode-docker
+[2021-11-30 19:52:42.056] [remoteagent] [info] Downloaded extension: ms-azuretools.vscode-docker /home/mini/.vscode-server/data/CachedExtensionVSIXs/ms-azuretools.vscode-docker-1.18.0
+[2021-11-30 19:52:42.414] [remoteagent] [info] Extracted extension to /home/mini/.vscode-server/extensions/.796a802c-d31c-4e05-934d-234f531fd325: ms-azuretools.vscode-docker
+[2021-11-30 19:52:42.436] [remoteagent] [info] Renamed to /home/mini/.vscode-server/extensions/ms-azuretools.vscode-docker-1.18.0
+[2021-11-30 19:52:42.441] [remoteagent] [info] Extracting completed. ms-azuretools.vscode-docker
+[2021-11-30 19:52:42.442] [remoteagent] [info] Extension installed successfully: ms-azuretools.vscode-docker
+[2021-11-30 19:52:49.179] [remoteagent] [info] Installing extension: formulahendry.docker-extension-pack
+[2021-11-30 19:52:49.729] [remoteagent] [info] Installing extension: formulahendry.docker-explorer
+[2021-11-30 19:52:50.784] [remoteagent] [info] Downloaded extension: formulahendry.docker-explorer /home/mini/.vscode-server/data/CachedExtensionVSIXs/formulahendry.docker-explorer-0.1.7
+[2021-11-30 19:52:51.710] [remoteagent] [info] Extracted extension to /home/mini/.vscode-server/extensions/.e4d503ca-d869-4d84-a1d2-e2166ae2e204: formulahendry.docker-explorer
+[2021-11-30 19:52:51.725] [remoteagent] [info] Renamed to /home/mini/.vscode-server/extensions/formulahendry.docker-explorer-0.1.7
+[2021-11-30 19:52:51.728] [remoteagent] [info] Extracting completed. formulahendry.docker-explorer
+[2021-11-30 19:52:52.305] [remoteagent] [info] Downloaded extension: formulahendry.docker-extension-pack /home/mini/.vscode-server/data/CachedExtensionVSIXs/formulahendry.docker-extension-pack-0.0.1
+[2021-11-30 19:52:52.325] [remoteagent] [info] Extracted extension to /home/mini/.vscode-server/extensions/.6ae1d1e8-c5a4-4350-a2ad-1b76c415c32c: formulahendry.docker-extension-pack
+[2021-11-30 19:52:52.335] [remoteagent] [info] Renamed to /home/mini/.vscode-server/extensions/formulahendry.docker-extension-pack-0.0.1
+[2021-11-30 19:52:52.337] [remoteagent] [info] Extracting completed. formulahendry.docker-extension-pack
+[2021-11-30 19:52:52.337] [remoteagent] [info] Extension installed successfully: formulahendry.docker-explorer
+[2021-11-30 19:52:52.337] [remoteagent] [info] Extension installed successfully: formulahendry.docker-extension-pack
+[2021-11-30 19:53:06.112] [remoteagent] [info] Installing extension: mhutchie.git-graph
+[2021-11-30 19:53:07.170] [remoteagent] [info] Downloaded extension: mhutchie.git-graph /home/mini/.vscode-server/data/CachedExtensionVSIXs/mhutchie.git-graph-1.30.0
+[2021-11-30 19:53:07.361] [remoteagent] [info] Extracted extension to /home/mini/.vscode-server/extensions/.bccbd9ab-a790-440e-aef7-cf94a4356ddd: mhutchie.git-graph
+[2021-11-30 19:53:07.380] [remoteagent] [info] Renamed to /home/mini/.vscode-server/extensions/mhutchie.git-graph-1.30.0
+[2021-11-30 19:53:07.384] [remoteagent] [info] Extracting completed. mhutchie.git-graph
+[2021-11-30 19:53:07.385] [remoteagent] [info] Extension installed successfully: mhutchie.git-graph
+[2021-11-30 19:55:49.476] [remoteagent] [info] Installing extension: kumar-harsh.graphql-for-vscode
+[2021-11-30 19:55:53.294] [remoteagent] [info] Downloaded extension: kumar-harsh.graphql-for-vscode /home/mini/.vscode-server/data/CachedExtensionVSIXs/kumar-harsh.graphql-for-vscode-1.15.3
+[2021-11-30 19:55:55.741] [remoteagent] [info] Extracted extension to /home/mini/.vscode-server/extensions/.8dfe261d-16a8-4bd1-b374-ab40de026eb0: kumar-harsh.graphql-for-vscode
+[2021-11-30 19:55:55.763] [remoteagent] [info] Renamed to /home/mini/.vscode-server/extensions/kumar-harsh.graphql-for-vscode-1.15.3
+[2021-11-30 19:55:55.765] [remoteagent] [info] Extracting completed. kumar-harsh.graphql-for-vscode
+[2021-11-30 19:55:55.765] [remoteagent] [info] Extension installed successfully: kumar-harsh.graphql-for-vscode
+[2021-11-30 20:06:33.409] [remoteagent] [info] Installing extension: esbenp.prettier-vscode
+[2021-11-30 20:06:39.040] [remoteagent] [info] Downloaded extension: esbenp.prettier-vscode /home/mini/.vscode-server/data/CachedExtensionVSIXs/esbenp.prettier-vscode-9.0.0
+[2021-11-30 20:06:39.763] [remoteagent] [info] Extracted extension to /home/mini/.vscode-server/extensions/.bfc4eff8-c633-4b03-911a-368b2e89dfa2: esbenp.prettier-vscode
+[2021-11-30 20:06:39.778] [remoteagent] [info] Renamed to /home/mini/.vscode-server/extensions/esbenp.prettier-vscode-9.0.0
+[2021-11-30 20:06:39.780] [remoteagent] [info] Extracting completed. esbenp.prettier-vscode
+[2021-11-30 20:06:39.781] [remoteagent] [info] Extension installed successfully: esbenp.prettier-vscode
+[2021-11-30 20:13:49.397] [remoteagent] [info] [::ffff:172.17.240.1][81cd4df1][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2021-11-30 20:13:50.481] [remoteagent] [info] [::ffff:172.17.240.1][f733bb43][ExtensionHostConnection] <18153> Extension Host Process exited with code: 0, signal: null.
+[2021-11-30 20:13:50.482] [remoteagent] [info] Last EH closed, waiting before shutting down

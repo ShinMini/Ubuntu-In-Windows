@@ -21,6 +21,9 @@ Plug 'https://github.com/tc50cal/vim-terminal' " Vim Terminal
 Plug 'https://github.com/preservim/tagbar' " Tagbar for code navigation
 Plug 'https://github.com/terryma/vim-multiple-cursors' " CTRL + N for multiple cursors
 
+ 
+" react native graph 
+Plug 'dsznajder/vscode-es7-javascript-react-snippets', { 'do': 'yarn install --frozen-lockfile && yarn compile' }
 
 " find plug source: https://github.com/natecraddock/nvim-find
 Plug 'natecraddock/nvim-find'

@@ -1,0 +1,97 @@
+0 verbose cli [
+0 verbose cli   '/usr/bin/node',
+0 verbose cli   '/usr/bin/npm',
+0 verbose cli   'install',
+0 verbose cli   'prettier',
+0 verbose cli   '-D',
+0 verbose cli   '--save-exact'
+0 verbose cli ]
+1 info using npm@7.5.2
+2 info using node@v12.22.5
+3 timing config:load:defaults Completed in 2ms
+4 timing config:load:file:/usr/share/nodejs/npm/npmrc Completed in 3ms
+5 timing config:load:builtin Completed in 3ms
+6 timing config:load:cli Completed in 4ms
+7 timing config:load:env Completed in 1ms
+8 timing config:load:project Completed in 1ms
+9 timing config:load:file:/home/mini/.npmrc Completed in 1ms
+10 timing config:load:user Completed in 1ms
+11 timing config:load:file:/etc/npmrc Completed in 0ms
+12 timing config:load:global Completed in 0ms
+13 timing config:load:cafile Completed in 0ms
+14 timing config:load:validate Completed in 0ms
+15 timing config:load:setUserAgent Completed in 0ms
+16 timing config:load:setEnvs Completed in 1ms
+17 timing config:load Completed in 14ms
+18 verbose npm-session 55698136c51d57fc
+19 timing npm:load Completed in 26ms
+20 timing arborist:ctor Completed in 1ms
+21 timing arborist:ctor Completed in 1ms
+22 timing idealTree:init Completed in 68ms
+23 timing idealTree:userRequests Completed in 1ms
+24 silly idealTree buildDeps
+25 silly fetch manifest prettier@*
+26 http fetch GET 200 https://registry.npmjs.org/prettier 179ms
+27 silly placeDep ROOT prettier@2.5.0 OK for:  want: *
+28 timing idealTree:#root Completed in 190ms
+29 timing idealTree:node_modules/prettier Completed in 0ms
+30 timing idealTree:buildDeps Completed in 193ms
+31 timing idealTree:fixDepFlags Completed in 1ms
+32 timing idealTree Completed in 266ms
+33 timing reify:loadTrees Completed in 267ms
+34 silly reify mark deleted [ '/home/mini/node_modules/node-bin-setup' ]
+35 silly reify mark deleted [
+35 silly reify   '/home/mini/node_modules/node/node_modules/node-linux-x64',
+35 silly reify   '/home/mini/node_modules/node/node_modules/.bin/node'
+35 silly reify ]
+36 timing reify:diffTrees Completed in 2ms
+37 silly reify mark retired [ '/home/mini/node_modules/node', '/home/mini/node_modules/.bin/node' ]
+38 silly reify mark retired [ '/home/mini/node_modules/node-bin-setup' ]
+39 silly reify moves {
+39 silly reify   '/home/mini/node_modules/node': '/home/mini/node_modules/.node-uKIHQY1I',
+39 silly reify   '/home/mini/node_modules/.bin/node': '/home/mini/node_modules/.bin/.node-mtbGnRdE',
+39 silly reify   '/home/mini/node_modules/node-bin-setup': '/home/mini/node_modules/.node-bin-setup-HKOpbvIt'
+39 silly reify }
+40 timing reify:retireShallow Completed in 5ms
+41 timing reify:createSparse Completed in 1ms
+42 timing reify:loadBundles Completed in 0ms
+43 silly tarball no local data for prettier@https://registry.npmjs.org/prettier/-/prettier-2.5.0.tgz. Extracting by manifest.
+44 silly tarball no local data for node@https://registry.yarnpkg.com/node/-/node-17.1.0.tgz. Extracting by manifest.
+45 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 329ms
+46 timing auditReport:getReport Completed in 332ms
+47 timing auditReport:init Completed in 0ms
+48 timing reify:audit Completed in 332ms
+49 http fetch GET 200 https://registry.yarnpkg.com/node/-/node-17.1.0.tgz 617ms
+50 timing reifyNode:node_modules/node Completed in 645ms
+51 http fetch GET 200 https://registry.npmjs.org/prettier/-/prettier-2.5.0.tgz 1635ms
+52 timing reifyNode:node_modules/prettier Completed in 1654ms
+53 timing reify:unpack Completed in 1654ms
+54 timing reify:rollback:createSparse Completed in 13ms
+55 timing reify:rollback:retireShallow Completed in 2ms
+56 timing command:install Completed in 1988ms
+57 verbose stack Error: EACCES: permission denied, rename '/home/mini/node_modules/.node-uKIHQY1I/node_modules/node-bin-setup/index.js' -> '/home/mini/node_modules/node/node_modules/node-bin-setup/index.js'
+58 verbose cwd /home/mini
+59 verbose Linux 5.10.16.3-microsoft-standard-WSL2
+60 verbose argv "/usr/bin/node" "/usr/bin/npm" "install" "prettier" "-D" "--save-exact"
+61 verbose node v12.22.5
+62 verbose npm  v7.5.2
+63 error code EACCES
+64 error syscall rename
+65 error path /home/mini/node_modules/.node-uKIHQY1I/node_modules/node-bin-setup/index.js
+66 error dest /home/mini/node_modules/node/node_modules/node-bin-setup/index.js
+67 error errno -13
+68 error Error: EACCES: permission denied, rename '/home/mini/node_modules/.node-uKIHQY1I/node_modules/node-bin-setup/index.js' -> '/home/mini/node_modules/node/node_modules/node-bin-setup/index.js'
+68 error  [Error: EACCES: permission denied, rename '/home/mini/node_modules/.node-uKIHQY1I/node_modules/node-bin-setup/index.js' -> '/home/mini/node_modules/node/node_modules/node-bin-setup/index.js'] {
+68 error   errno: -13,
+68 error   code: 'EACCES',
+68 error   syscall: 'rename',
+68 error   path: '/home/mini/node_modules/.node-uKIHQY1I/node_modules/node-bin-setup/index.js',
+68 error   dest: '/home/mini/node_modules/node/node_modules/node-bin-setup/index.js'
+68 error }
+69 error The operation was rejected by your operating system.
+69 error It is likely you do not have the permissions to access this file as the current user
+69 error
+69 error If you believe this might be a permissions issue, please double-check the
+69 error permissions of the file and its containing directories, or try running
+69 error the command again as root/Administrator.
+70 verbose exit -13

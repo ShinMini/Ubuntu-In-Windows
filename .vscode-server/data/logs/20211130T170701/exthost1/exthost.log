@@ -1,0 +1,14 @@
+[2021-11-30 17:07:03.801] [exthost] [info] Extension host with pid 6865 started
+[2021-11-30 17:07:03.813] [exthost] [info] Lock '/home/mini/.vscode-server/data/User/workspaceStorage/c34634c85e470c6392766142da8ac552/vscode.lock': Lock acquired.
+[2021-11-30 17:07:04.070] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-11-30 17:07:04.080] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-11-30 17:07:04.596] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-11-30 17:07:04.641] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-11-30 17:07:04.655] [exthost] [info] Eager extensions activated
+[2021-11-30 17:07:04.859] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1324
+[2021-11-30 17:07:05.300] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2021-11-30 17:07:05.304] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2021-11-30 17:07:05.350] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2021-11-30 17:07:11.738] [exthost] [info] extension host terminating: received terminate message from renderer
+[2021-11-30 17:07:11.739] [exthost] [info] Lock '/home/mini/.vscode-server/data/User/workspaceStorage/c34634c85e470c6392766142da8ac552/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2021-11-30 17:07:12.767] [exthost] [info] Extension host with pid 6865 exiting with code 0
